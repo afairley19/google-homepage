@@ -1,0 +1,101 @@
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="Search the world's information." name ="description">
+    <title>Le Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+.top-nav {
+    background-color:#f0e400;
+}    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}   
+.top-nav li {
+    float: left;
+}
+.footer li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: pink;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 10px;
+}
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    height: 50px;
+}
+form.search button {
+    float: left;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    background: #f0e400;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+.footer {
+    background-color: #d9dbdd;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+
+<body>
+    <div class="top-nav">
+        <ul>
+            <li><a href="https://www.google.com">About</a></li>
+            <li><a href="https://www.google.com">Store</a></li>
+            <li><a href="https://www.google.com">Email</a></li>
+        </ul>
+    </div>
+    <div class="logo">
+        <img src="le-google.png" alt="fake google logo">
+    </div>
+    <form class="search" action="https://www.google.com">   
+            <input type="text" placeholder="What'll it be, hmmm?" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="https://www.google.com">Advertising</a></li>
+            <li><a href="https://www.google.com">Business</a></li>
+            <li><a href="https://www.google.com">How Search Works</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
